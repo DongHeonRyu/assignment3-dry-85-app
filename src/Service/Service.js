@@ -1,5 +1,5 @@
 export async function getInventory() {
-  return fetch("http://54.236.16.5/inventoryDry85").then((response) =>
+  return fetch("http://54.236.16.5:8000/inventoryDry85").then((response) =>
     response.json()
   );
 }
