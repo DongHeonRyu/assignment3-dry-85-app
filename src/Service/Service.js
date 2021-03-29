@@ -1,12 +1,14 @@
 export async function getInventory() {
   return fetch(`${process.env.REACT_APP_API_BASE_URL}`).then((response) =>
     response.json()
+    
   );
 }
 
 export async function getCart() {
   return fetch(`${process.env.REACT_APP_API_BASE_URL}`).then((response) =>
     response.json()
+
   );
 }
 
