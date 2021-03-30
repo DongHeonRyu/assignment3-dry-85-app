@@ -2,7 +2,6 @@ import React from "react";
 import CartDry85 from "./Components/CartDry85/CartDry85";
 import InventroyDry85 from "./Components/InventroyDry85/InventroyDry85";
 
-
 function App(props) {
   return (
     <div className="container">
